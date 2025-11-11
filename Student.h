@@ -8,6 +8,7 @@ private:
     string major;
 
 public:
+    Student();
     Student(string n, int i, int y, string m);
 
     void setYearLevel(int y);
