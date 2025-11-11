@@ -19,7 +19,7 @@ public:
 
     void display() override {
         Person::display();
-        cout << "Year Level: " << yearLevel << endl;
+        cout << "Year: " << yearLevel << endl;
         cout << "Major: " << major << endl;
     }
 };
