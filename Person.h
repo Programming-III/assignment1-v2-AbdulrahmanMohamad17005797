@@ -8,6 +8,7 @@ private:
     int id;
 
 public:
+    Person();
     Person(string n, int i) : name(n), id(i) {}
 
     void setName( string n) { name = n; }
