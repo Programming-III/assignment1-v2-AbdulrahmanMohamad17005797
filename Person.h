@@ -6,12 +6,16 @@ class Person {
 private:
     string name;
     int id;
+
 public:
-    Person(string n, int i);
-    void setName( string n);
-    void setId(int i);
-    string getName();
-    int getId();
+    Person(string n, int i) : name(n), id(i) {}
+
+    void setName( string n) { name = n; }
+    void setId(int i) { id = i; }
+
+    string getName(){ return name; }
+    int getId(){ return id; }
+
     void display(){
         cout << "Name: " << name << endl;
         cout << "ID: " << id << endl;
