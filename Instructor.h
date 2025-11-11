@@ -18,7 +18,7 @@ public:
     string getDepartment() { return department; }
     int getExperienceYears() { return experienceYears; }
 
-    void display() const override {
+    void display() override {
         Person::display(); 
         cout << "Department: " << department << endl;
         cout << "Experience: " << experienceYears << endl;
