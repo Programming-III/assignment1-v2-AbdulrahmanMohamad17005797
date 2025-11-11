@@ -9,7 +9,7 @@ private:
 
 public:
     Instructor();
-    Instructor(string n, int i, string d, int)
+    Instructor(string n, int i, string d, int e)
         : Person(n, i), department(d), experienceYears(e) {}
 
     void setDepartment( string& d) { department = d; }
