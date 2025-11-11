@@ -11,12 +11,12 @@ public:
     Student(string n, int i, int y, string m);
 
     void setYearLevel(int y);
-    void setMajor(const string m);
+    void setMajor(string m);
 
-    int getYearLevel() const { return yearLevel; }
-    string getMajor() const { return major; }
+    int getYearLevel() { return yearLevel; }
+    string getMajor() { return major; }
 
-    void display() const override {
+    void display() override {
         Person::display();
         cout << "Year Level: " << yearLevel << endl;
         cout << "Major: " << major << endl;
