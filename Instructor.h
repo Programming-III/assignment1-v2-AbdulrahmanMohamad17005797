@@ -21,6 +21,6 @@ public:
     void display() const override {
         Person::display(); 
         cout << "Department: " << department << endl;
-        cout << "Years of Experience: " << experienceYears << endl;
+        cout << "Experience: " << experienceYears << endl;
     }
 };
